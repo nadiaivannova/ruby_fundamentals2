@@ -13,6 +13,11 @@
 #What do I want to get out of the method?
  #- fahrentiheit converted to celcious
 
- puts "what is the temperature in fahrentiheit?"
- fahrentiheit = gets.to_i
- puts "The weather is #{(fahrentiheit - 32) * 5/9} degrees celcious"
+puts "What is the temperature in fahrentiheit?"
+fahrentiheit = gets.to_i
+
+def conversion(fahrentiheit)
+  puts "The weather is #{(fahrentiheit - 32) * 5/9} degrees celcious"
+end
+
+conversion(fahrentiheit)
